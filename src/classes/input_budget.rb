@@ -1,17 +1,53 @@
 class InputBudget
+    
+    attr_accessor :name, :weeks, :income, :expenses, :savings
 
-    def input_income(income)
-        puts "Hi #{name}, what is your expected income this week?"
-        income = gets.chomp.to_i
+    # @@total_pets = 0
+    
+    def initialize(week)
+        # @name = name
+        @weeks = []
+        @income = []
+        @expenses = []
+        @savings = []
+        # @@total_pets += 1
     end
 
-    def input_expenses(expenses)
-        puts "What is your total expenses this week?"
-        expenses = gets.chomp.to_i
+    # def self.total_pets
+    #     @@total_pets
+    # end
+    
+    # def week
+    #     @weeks.length > 0 ? @weeks.income(week, amount) : 0
+    # end
+
+    def income(amounts_in_dollar)
+        @income << amounts_in_dollar
+        #previous had :
+        # @income << {week: week_number, amount: amounts_in_dollar}
     end
 
-    def input_savings(savings)
-        puts "Enter the amount of savings you'd like to achieve in this week's budget"
-        savings = gets.chomp.to_i
+    def display_weekly_log
+        @weeks.count > 0 ? @weeks.income(amounts_in_dollar) : 0
+        puts "Please confirm the information entered in this week's budget:"
+        @weeks.each do |week|
+            puts "Income: #{@income}"
+            puts "Total Expenses: #{@expenses}"
+            puts "Desire savings of: #{@savings}"
+        end
     end
+
+    # def to_s
+    #     return "Pet: type-#{@type} name-#{@name}"
+    # end
 end
+
+
+
+# dog = Pet.new("dog", "Spike")
+# dog.eat(10, "morning")
+# puts dog.name
+# dog.name = "Roy"
+# dog.eat(15, "afternoon")
+# dog.eat(10, "dinner")
+# dog.display_daily_log
