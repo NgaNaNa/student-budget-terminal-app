@@ -1,32 +1,20 @@
 class InputBudget
     
     attr_accessor :name, :weeks, :income, :expenses, :savings
-
-    # @@total_pets = 0
     
     def initialize(week)
-        # @name = name
         @weeks = []
         @income = []
         @expenses = []
         @savings = []
-        # @@total_pets += 1
     end
-
-    # def self.total_pets
-    #     @@total_pets
-    # end
     
-    # def week
-    #     @weeks.length > 0 ? @weeks.income(week, amount) : 0
-    # end
-
     def income(amounts_in_dollar)
         @income << amounts_in_dollar
-        #previous had :
+        #previously had :
         # @income << {week: week_number, amount: amounts_in_dollar}
     end
-
+    
     def display_weekly_log
         @weeks.count > 0 ? @weeks.income(amounts_in_dollar) : 0
         puts "Please confirm the information entered in this week's budget:"
@@ -36,6 +24,13 @@ class InputBudget
             puts "Desire savings of: #{@savings}"
         end
     end
+    # def self.total_pets
+    #     @@total_pets
+    # end
+    
+    # def week
+    #     @weeks.length > 0 ? @weeks.income(week, amount) : 0
+    # end
 
     # def to_s
     #     return "Pet: type-#{@type} name-#{@name}"
