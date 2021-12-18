@@ -24,25 +24,6 @@ class InputBudget
             puts "Desire savings of: #{@savings}"
         end
     end
-    # def self.total_pets
-    #     @@total_pets
-    # end
-    
-    # def week
-    #     @weeks.length > 0 ? @weeks.income(week, amount) : 0
-    # end
-
-    # def to_s
-    #     return "Pet: type-#{@type} name-#{@name}"
-    # end
 end
 
 
-
-# dog = Pet.new("dog", "Spike")
-# dog.eat(10, "morning")
-# puts dog.name
-# dog.name = "Roy"
-# dog.eat(15, "afternoon")
-# dog.eat(10, "dinner")
-# dog.display_daily_log
