@@ -2,9 +2,8 @@ require 'colorize'
 
 def positive_outcome_advice(user_name, daily_free_spend, weekly_budget)
     puts "Well done on this week's budget #{user_name}!".white
-    puts "You have a free spending allowance of $#{daily_free_spend} per day!".white
+    puts "You have a free spending allowance of $#{daily_free_spend.round(2)} per day!".white
     puts "You've also managed to put aside $#{weekly_budget[2]}".white
-    puts "But don't forget to do that transfer with however you manage the transactions of your money".white
     puts "Exciting news! © Student Budget App will be collaborating with one of the biggest banks to inject actual money transfer features. Stay Tune!".white
 end
 

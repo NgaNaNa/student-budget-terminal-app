@@ -27,4 +27,10 @@
 ### List of features in the application.
 
 #### Feature No. 1
-- The first feature in this app will allow for data input from keyboard. The program will store this data for later use. This part of the feature happens when the app starts, it will go straight to presenting the user with a series of questions as part of its flow structure.
+- The first feature in this app will allow for data input from the user's keyboard. The program will store this data for later use. This part of the feature happens when the app starts, it will go straight to presenting the user with a series of questions as part of its flow structure. See example below:
+```
+What is your expected income this week?
+250
+```
+
+
