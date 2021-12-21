@@ -22,14 +22,14 @@ end
 
 
 def budget_advice(weekly_budget, user_name)
-    puts "You've selected to calculate your budget".cyan
+    puts "_You've selected to calculate your budget_".cyan
     calc_outcome = calc_budget(weekly_budget[0], weekly_budget[1], weekly_budget[2])
 
     daily_free_spend = calc_outcome / 7
 
     # Articles
     # If daily_free_spend > 0, Here is the following advice
-    if daily_free_spend > 0
+    if daily_free_spend >= 0
         positive_outcome_advice(user_name, daily_free_spend, weekly_budget)
     # If daily_free_spend =< 0, Here is the following advice
     elsif calc_outcome < 0
@@ -38,6 +38,5 @@ def budget_advice(weekly_budget, user_name)
     elsif daily_free_spend > 20
         healthy_outcome_advice(user_name)
     end
-    # If daily_free_spend > 0, Here is the following advice 
-    # ==> This is an EXTRA feature, to use json to bring data in for hash array - List items recommonded to purchase.
+    # ==> EXTRA feature to add later. Use json to bring data in for hash array - List items recommonded to purchase.
 end
