@@ -1,0 +1,13 @@
+- Your README.md should have a separate heading for each documentation requirement and answers organised under the appropriate headings.
+- Provide full attribution to referenced sources (where applicable).
+- Provide a link to your source control repository
+- Design a Software Development Plan for a terminal application. The following requirements provide details of what needs to be included in this plan,
+    - Develop a statement of purpose and scope for your application. It must include: (300 - 500 words)
+        - describe at a high level what the application will do
+        - identify the problem it will solve and explain why you are developing it
+        - identify the target audience
+        - explain how a member of the target audience will use it
+    - 
+    - 
+    - 
+    - 

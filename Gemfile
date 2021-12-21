@@ -9,3 +9,5 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem "colorizer", "~> 0.0.2"
 
 gem "tty-prompt"
+
+gem "rspec", "~>3.10"
