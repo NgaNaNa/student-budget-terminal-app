@@ -32,5 +32,56 @@
 What is your expected income this week?
 250
 ```
+#### Feature No. 2
 
+- The program will regurgitate the information back to the user in a hash list format. It will then presents the user with an option to proceed with the evaluation or go back to the start and enter new information, as an option for changing the answers.
+```
+This week’s income is $250
+This week’s total expense is $200
+You would like to put away $20 of savings this week
+```
 
+#### Feature No. 3
+
+- The program will run a basic mathematical calculation in the background using the data given and once it’s made an evaluation based on the outcome, the program will present the user with a feedback summary and recommendations. The sample of the feedback might be:
+Congratulations, your budget is healthy. You may spend up to $4.29 per day comfortably, after you have covered your total expenses for the week. You may transfer $20 into your savings account.
+In this feature, there will be a use of methods to perform mathematical calculations. With the return value, it will run through a series of if / elsif statements to locate its most suited feedback.
+The variables will come from the inputs from the user at the start, and the variable scope shall be demonstrated within the methods.
+Finally, the user will have a choice to select the following:
+    - I don’t like this feedback, let’s try a different figure (The program will not save the data and will also take the user back to the start)
+    - Exit the program
+
+## Develop an outline of the user interaction and experience for the application.
+
+- How the user will find out how to interact with / use each feature.
+The user will be presented on screen with the first question at the start of the app. For each question answered, a new question follows. Another feature will ask the user to strictly select from a couple of options, so basic instructions are given as the app progresses.
+
+- How the user will interact with / use each feature.
+Since the app is only available to be installed on a computer, the user will naturally know to use the keyboard to interact with the app. The user won’t be able to choose on how they use the app as each new features will present itself as the app progresses.
+
+- How errors will be handled by the application and displayed to the user.
+As much as possible, the app will target any possibly error presented during the running and interaction wih the app. For example, the second question to user requires an input of numbers. If the app receives an input that cannot be coerced to an integer, then a friendly output of strings will ask the user to enter numbers only.
+
+## Develop a diagram which describes the control flow of your application. Your diagram must:
+
+- show the workflow/logic and/or integration of the features in your application for each feature.
+- utilise a recognised format or set of conventions for a control flow diagram, such as UML.
+
+![Student Budget Control Flow Diagram](./docs/flowchart.jpeg)
+
+## Develop an implementation plan which:
+
+- Outlines how each feature will be implemented and a checklist of tasks for each feature
+- Prioritise the implementation of different features, or checklist items within a feature
+- Provide a deadline, duration or other time indicator for each feature or checklist/checklist-item
+
+    Based on the above requirements, the chosen software for managing this project is the Trello board.
+    Each feature has its own cards, which is prioritised to be completed by the order of the control flow. A checklist inside each cards are also itemised by its priority.
+
+    Please below a few screenshots to show the progressions in the building of the application.
+
+    ![Trello 2021-12-12](./docs/trello_2021-12-12.png)
+
+    ![Trello 2021-12-14](./docs/trello_2021-12-14.png)
+
+    ![Trello 2021-12-18](./docs/trello_2021-12-18.png)
