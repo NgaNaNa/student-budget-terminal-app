@@ -3,7 +3,7 @@
 
 ## Link to source control repository
 
-[NgaNaNa] (https://github.com/NgaNaNa/student-budget-terminal-app)
+[Source control repository for NgaNaNa at Github page](https://github.com/NgaNaNa/student-budget-terminal-app)
 
 ## Software Development Plan for the Student Budget Terminal application
 
@@ -85,3 +85,6 @@ As much as possible, the app will target any possibly error presented during the
     ![Trello 2021-12-14](./docs/trello_2021-12-14.png)
 
     ![Trello 2021-12-18](./docs/trello_2021-12-18.png)
+
+    ![Trello 2021-12-21](./docs/trello_2021-12-21.png)
+
